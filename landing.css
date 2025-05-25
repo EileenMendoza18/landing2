@@ -1,0 +1,355 @@
+:root{
+    --color: rgb(19, 180, 113);
+}
+body{
+    
+    font-family: "National Park", sans-serif;
+    background-color: var(--color);
+}
+.titulo{
+    font-size: 3vh;
+    text-align: center;    
+    color: white;
+    margin-top: 4vh;
+    margin-bottom: 3vh}
+
+.contenidoprin{
+    margin-left: 12vh;
+    display: flex;
+}
+.logos{
+    width: 9vh;
+    height: 84vh;
+    z-index: 1;
+    background-color: rgb(14, 65, 60);
+    box-shadow: 0.9vh 0.1vh 1vh 0.1vh rgba(14, 65, 60, 0.089) ;
+}
+.logos img{
+    padding:2.5vh;
+    width: 4vh;
+    background-color: rgb(14, 65, 60) ;
+}
+
+.img1{
+    margin-bottom: 25vh;
+}
+
+
+.contenido1{
+    background-color:rgb(225, 245, 236) ;
+    width: 175vh;
+    height: 84vh;
+    box-shadow: -6.7vh 9vh 1vh -6.3vh  rgba(14, 65, 52, 0.479);
+    
+}
+.Titulosarriba~div{
+        display: flex;
+
+}
+.Titulosarriba{
+    margin-top: 3vh;
+    display: flex;
+    color: rgb(14, 65, 60);
+}
+
+.Titulosarriba p{
+    font-weight: bold;
+    margin-left: 21.5vh;
+    font-size: 1.5vh;
+    margin-bottom: 4vh;
+}
+
+
+.Titulosarriba .uno{
+    margin-left: 10vh;
+}
+.img6{
+    width: 4vh;
+    margin-top:1vh;
+    margin-left: 15vh;
+}
+.Titulosarriba .numero {
+    font-size: 2.1vh;
+    color: var(--color) ;
+    font-weight: bold;
+    margin-left:1vh;
+    margin-top: 1.5vh;
+}
+
+.contenido{
+    float: left;
+
+}
+.img7{
+    height:68.5vh;
+    width: 84vh;
+
+
+}
+.box{ 
+    width: 157vh;
+    transform: translate(10vh,-1vh);
+    height: 66vh;
+    box-shadow: 0vh 1.5vh 1vh 3vh rgba(6, 18, 18, 0.063);
+}
+
+.vacio{
+    width: 84vh;
+    height: 68.5vh;
+    color:rgba(14, 65, 60, 0) ;
+    background-color: rgba(15, 70, 64, 0.733);
+    position: absolute;
+    transform: translate(-38vh,-30vh);
+    top: 30vh;
+    left: 38vh;
+}
+
+
+.full{
+    font-size: 5vh;
+    color: white;
+}
+.full2{
+    margin-top: -5vh;
+    font-size: 5vh;
+    color: white;
+}
+.dental{
+    margin-top: -5vh;
+    font-size: 5vh;
+    color: var(--color);
+}
+
+.texto{
+    margin-top: -2vh;
+    height: 4vh;
+    font-size: 1.2vh;
+    width: 150vh;
+    color: white;
+}
+
+.texto+p{
+    margin-top: -2vh;
+}
+.textocentro{
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    top: 56vh;
+    left: 45.5vh;
+    transform: translate(-38vh,-35vh);
+    
+} 
+
+.b1{
+    margin-top: -1vh;
+    background-color:var(--color);
+    width: 15vh;
+    height: 4vh;
+    border-radius: 2vh ;
+    border:var(--color);
+    display: flex;
+}
+.book{
+    font-size: 1.6vh;
+    color: white;
+    margin: 1vh;
+    margin-left: 2vh;
+    margin-top: 1vh;
+}
+.img8 {
+    width: 2vh;
+    height: 2vh;
+    margin-top: 0.7vh;
+    margin-left: 0.2vh;
+}
+.img9{
+    width: 2vh;
+    height: 2vh;
+    margin-top: 0.4vh;
+    margin-left: 0.2vh;
+}
+.b2{
+    margin-top: -4vh;
+    margin-left:17vh;
+    border: solid var(--color) 0.4vh;
+    background-color: rgba(14, 65, 60, 0) ;
+    width: 16vh;
+    height: 4vh;
+    border-radius: 2vh;
+    display: flex;
+}
+.read{
+    font-size: 1.6vh;
+    color: var(--color);
+    margin: 1vh;
+    margin-left: 2vh;
+    margin-top: 0.5vh;
+}
+.img25{
+    margin-top: 3.1vh;
+    width:1.8vh;
+}
+.imagenes {
+    margin-left: 17vh;
+}
+
+.formulario{
+    height: 68.5vh;
+    width: 73vh;
+    background-color: white;
+}
+
+.formulario h1{
+    padding-top:5.5vh ;
+    text-align: center;
+    color: var(--color);
+    font-size: 4vh;
+}
+.textform{
+    display: flex;}
+
+.firstp{
+    font-size: 1.5vh;
+    color: gray;
+    margin-left:6vh;
+}
+.firstdiv{
+    color: rgba(128, 128, 128, 0.555);
+    margin-left: 6vh;
+    width: 25vh;
+    height: 3vh;
+    background-color:rgb(233, 229, 229) ;
+    padding:1vh 0 0vh 2.5vh;  
+    border-radius: 2.5vh;
+    font-size: 1.2vh;
+}
+
+.lastp{
+    font-size: 1.5vh;
+    color: gray;
+    margin-left:6vh;
+}
+.lastdiv{
+    color: rgba(128, 128, 128, 0.555);
+    margin-left: 6vh;
+    width: 25vh;
+    height: 3vh;
+    background-color:rgb(233, 229, 229) ;
+    padding:1vh 0 0vh 2.5vh;  
+    border-radius: 2.5vh;
+    font-size: 1.2vh;
+}
+.emailp{
+    margin-top: 1vh;
+    font-size: 1.5vh;
+    color: gray;
+    margin-left:6vh;
+}
+.emaildiv{
+    color: rgba(128, 128, 128, 0.555);
+    margin-left: 6vh;
+    width: 59vh;
+    height: 3vh;
+    background-color:rgb(233, 229, 229) ;
+    padding:1vh 0 0vh 2.5vh;  
+    border-radius: 2.5vh;
+    font-size: 1.2vh;
+}
+.contactp{
+    margin-top: 2vh;
+    font-size: 1.5vh;
+    color: gray;
+    margin-left:6vh;
+}
+.contactdiv{
+    color: rgba(128, 128, 128, 0.555);
+    margin-left: 6vh;
+    width: 59vh;
+    height: 3vh;
+    background-color:rgb(233, 229, 229) ;
+    padding:1vh 0 0vh 2.5vh;  
+    border-radius: 2.5vh;
+    font-size: 1.2vh;
+}
+.second{
+    display: flex;
+}
+.datep{
+    margin-top: 2vh;
+    font-size: 1.5vh;
+    color: gray;
+    margin-left:6vh;
+}
+.dateimg{
+    display: flex;
+    color: rgba(128, 128, 128, 0.555);
+    margin-left: 6vh;
+    width: 25vh;
+    height: 3vh;
+    background-color:rgb(233, 229, 229) ;
+    padding:1vh 0 0vh 2.5vh;  
+    border-radius: 2.5vh;
+    font-size: 1.2vh;
+    
+}
+.datepp{
+    margin:0.3vh 0vh 0vh 0.5vh;
+}
+.img20{
+    margin: -0.3vh 0vh 0vh -0.8vh;
+    width: 3vh;
+    height: 3vh;
+}
+
+.timep{
+    margin-top: 2vh;
+    font-size: 1.5vh;
+    color: gray;
+    margin-left:6vh;
+}
+.timeimg{
+    display: flex;
+    color: rgba(128, 128, 128, 0.555);
+    margin-left: 6vh;
+    width: 25vh;
+    height: 3vh;
+    background-color:rgb(233, 229, 229) ;
+    padding:0.7vh 0 0vh 2.5vh;  
+    border-radius: 2.5vh;
+    font-size: 1.2vh;
+    
+}
+.timepp{
+    margin:0.3vh 0vh 0vh 0.5vh;
+}
+.img21{
+    margin: -0.3vh 0vh 0vh -0.8vh;
+    width: 3vh;
+    height: 3vh;
+}
+
+
+.booking{
+    display: flex;
+    margin-top: 5vh;    
+    background-color:var(--color) ;
+    border: var(--color);
+    margin-left: 28.5vh;
+    width: 16.5vh;
+    height: 4.5vh;
+    padding:0.7vh 0 0vh 2.5vh;  
+    border-radius: 2.5vh;
+    
+}
+.booki{
+    
+    font-size: 1.6vh;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin:0.5vh 0vh 0vh 0.8vh;}
+.img22{
+    margin: 0vh 0vh 0vh 1.5vh;
+    width: 3vh;
+    height: 3vh;
+}
